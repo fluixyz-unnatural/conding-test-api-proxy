@@ -16,7 +16,7 @@ app.use(
     target: API_SERVICE_URL,
     changeOrigin: true,
     headers: {
-      "X-API-KEY": process.env.AREAS_API_KEY,
+      "X-API-KEY": process.env.RESAS_API_KEY,
     },
   })
 );
